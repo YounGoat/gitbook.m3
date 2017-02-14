@@ -1,0 +1,26 @@
+{
+	"title": "Make My Mac",
+	"variables": {},
+	"links": {
+		"sidebar": {
+			"HOME": "https://youngoat.github.io"
+		}
+	},
+	"plugins": [
+		"toggle-chapters",
+		"catalog",
+		"analytics"
+	],
+	"pluginsConfig": {
+		"fontSettings": {
+			"size": 2
+		},
+		"analytics": {
+			"context": [{
+				"vendor": "Google",
+				"token": "UA-80152063-2",
+				"base": "http://localhost/"
+			}]
+		}
+	}
+}
